@@ -6,7 +6,7 @@ type UserType = {
 };
 
 function createOrUpdateUser(initialValues: Partial<UserType>): UserType {
-  const userData: User = {
+  const userData: UserType = {
     name: "Bob",
     surname: "Pikachu",
     email: "pikapika@meta.ua",
